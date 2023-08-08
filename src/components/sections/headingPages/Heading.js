@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import food3 from "../../../assets/food/food3.jpeg";
+import foodthree from "../../../assets/foodthree.jpeg";
 
 export default function Heading() {
   return (
@@ -20,7 +20,7 @@ export default function Heading() {
         </section>
 
         <section className="hero-image">
-          <img src={food3} alt="Little Lemon restaurant"></img>
+          <img src={foodthree} alt="Little Lemon restaurant"></img>
         </section>
       </article>
     </header>

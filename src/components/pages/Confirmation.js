@@ -1,4 +1,4 @@
-import HeroImage from "../../assets/food/food5.jpeg";
+import HeroImage from "../../assets/foodfive.jpeg";
 import { Link } from "react-router-dom";
 import menu from "../../assets/menu.webp";
 

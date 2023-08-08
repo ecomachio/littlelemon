@@ -54,7 +54,11 @@ const ReservationForm = ({ updateTimes, availableTimes }) => {
   };
 
   return (
-    <form className="reservation-form" onSubmit={(e) => handleSubmit(e)}>
+    <form
+      className="reservation-form"
+      onSubmit={(e) => handleSubmit(e)}
+      data-testid="reservation-form"
+    >
       <div>
         <label htmlFor="fName">First Name</label> <br />
         <input

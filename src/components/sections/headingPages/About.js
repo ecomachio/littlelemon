@@ -1,6 +1,6 @@
 import React from "react";
-import food1 from "../../../assets/food/food1.png";
-import food2 from "../../../assets/food/food2.jpeg";
+import foodone from "../../../assets/foodone.png";
+import foodtwo from "../../../assets/foodtwo.jpeg";
 
 const About = () => {
   return (
@@ -23,12 +23,12 @@ const About = () => {
       <section className="double-image">
         <img
           className="about-1"
-          src={food1}
+          src={foodone}
           alt="Little Lemon restaurant cuisine 1"
         ></img>
         <img
           className="about-2"
-          src={food2}
+          src={foodtwo}
           alt="Little Lemon restaurant cuisine 2"
         ></img>
       </section>

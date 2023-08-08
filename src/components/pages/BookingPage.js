@@ -2,7 +2,6 @@ import React from "react";
 import Heading from "../sections/reservePages/Heading";
 import ReservationForm from "../sections/reservePages/BookingForm";
 import { useReducer } from "react";
-import { fetchDistinctTimeSlots } from "../../bookingsAPI";
 import { arrayOfHours } from "../../constants";
 
 const BookingSlot = ({ time, available }) => {
@@ -37,7 +36,6 @@ const BookingTable = ({ availableTimes }) => {
 
 const BookingPage = () => {
   const updateTimes = (state, action) => {
-    console.log("ter  ", state, action);
     switch (action.type) {
       case "update":
         return action.payload;
@@ -59,7 +57,10 @@ const BookingPage = () => {
   return (
     <>
       <Heading />
-      <BookingTable availableTimes={availableTimes} />
+      <BookingTable
+        availableTimes={availableTimes}
+        data-testid="booking-table"
+      />
       <ReservationForm availableTimes={availableTimes} updateTimes={dispatch} />
     </>
   );

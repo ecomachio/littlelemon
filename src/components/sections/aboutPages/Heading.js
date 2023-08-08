@@ -1,4 +1,5 @@
-import HeroImage from "../../../assets/food/food4.webp";
+import React from "react";
+import HeroImage from "../../../assets/foodfour.webp";
 
 const Heading = () => {
   return (

@@ -1,7 +1,7 @@
 import Carousel from "./SpecialsCarousel";
-import GreekSalad from "../../../assets/food/greek-salad.webp";
-import Bruschetta from "../../../assets/food/bruschetta.jpeg";
-import LemonDessert from "../../../assets/food/lemon-dessert.webp";
+import GreekSalad from "../../../assets/greek-salad.webp";
+import Bruschetta from "../../../assets/bruschetta.jpeg";
+import LemonDessert from "../../../assets/lemon-dessert.webp";
 import SpecialCard from "./CardInfo/SpecialCard";
 import menu from "../../../assets/menu.webp";
 
